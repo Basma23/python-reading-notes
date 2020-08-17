@@ -7,4 +7,4 @@ This table bellow showing the read sections in code 401, which contain a list of
 
 |Index |                                                       Title                                                      |
 |:----:|:----------------------------------------------------------------------------------------------------------------:|
-|  01  |[Read class-01](https://basma23.github.io/reading-notes/class-01)                              |
+|  01  |[Read class-01](https://basma23.github.io/python-reading-notes/class-01)                                          |
