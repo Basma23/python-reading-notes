@@ -1,3 +1,56 @@
+# Data Science in a nutshell
+
+**Data Science**
+
+It is a set of disciplines and practices that handle data in a scientific manner. The foundations of data science are mostly Mathematics and Statistics, sometimes Software Engineering would play a role as well.
+Usually, it includes but not limited to these steps:
+
+1- Data acquisition: The data could be in the form of .CSV files. Excel file (.XLSX) is a typical form, or it could be available by API calls, or someone has done the dirty work already and they are all in DWH(Data WareHouse) or Data Lake.
+![Data acquisition](https://miro.medium.com/max/755/0*zaoqsiRK_7Mxxidb.png)
+
+2- Data cleaning & wrangling: Data could be in the nested structure for storage saving purpose (e.g. Bigquery and NoSQL), could be normalized (like general databases). The data need to be flattened before usage.
+Or, the application generating data went haywire and polluted the data recently. That would require sanity checking and data cleaning as well.
+This is usually the most time-consuming and painful part for Data Scientists, Analysts and Data Engineers.
+
+3- Data Engineering: Simply put, the point of Data Engineering is building a stable and reliable architecture for data storage and consumption. It is a extremely vital part as all kinds of data science tricks depends on it.
+If there is no good data to use, NONE of the data science gimmicks could work.
+Well engineered data should be clean, fast and cheap (in terms of computational resources, hence money as well) for robust consumption right away.
+
+4- Utilization of data: From traditional consumption like building an application, doing ad hoc analysis, dashboarding and the recent fancy thing such as Machine Learning, this is the step people care so much.
+
+**Big Data**
+
+![Big Data](https://miro.medium.com/max/875/1*hvVfvzIvrTw0COyaBCFnwQ.png)
+
+As for “Big Data”, there are other formats of data as well: images, videos, voice recordings, etc. Good examples would be Google Photos for images data, Netflix for videos, voices recordings (songs) in Spotify.
+And of course, “Big Data” would be BIG. Big enough to make it impossible for a regular laptop to process. Hence, solutions like Google Bigquery, Hadoop and MapReduce are introduced.
+
+**“Analytics” & “Business Intelligence”**
+
+“Analytics”:
+Analytics is the discovery, interpretation, and communication of meaningful patterns in data; and the process of applying those patterns towards effective decision making.
+
+“Business Intelligence”:
+Business intelligence (BI) comprises the strategies and technologies used by enterprises for the data analysis of business information. BI technologies provide historical, current and predictive views of business operations.
+
+**“Machine Learning”**
+
+**Machine Learning** is like human learning new knowledge. Human picks up new knowledge through experience, machines pick up new knowledge with data.
+Machine Learning aims at building algorithms, and algorithms can be divided into 2 categories: Supervised Learning and Unsupervised Learning.
+
+An iconic example of a Supervised Learning algorithm would be Linear Regression. And Logistic Regression is widely used as well. But most of the people are usually introduced with Decision Trees first.
+
+**“Deep Learning”**
+
+**Deep Learning** has a lot of connections with Machine Learning, but they are not exactly the same thing in practice.
+Machine Learning focus on tabular data, and Deep Learning handles untraditional data such as images, text, voice recordings. Deep Learning algorithms work on computer vision, speech recognition, NLP (Natural Language Processing) and so on.
+
+**“Reinforcement Learning”**
+
+Reinforcement Learning focuses on maximizing rewards by taking action(s) in a given environment.
+
+
+
 # What is Jupyter Lab
 
 **JupyterLab** is a next-generation web-based user interface for Project Jupyter.
