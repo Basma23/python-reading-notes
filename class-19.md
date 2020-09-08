@@ -42,5 +42,26 @@ The re library in Python provides several functions to make our tasks easier, su
 
 The shutil module includes high-level file operations such as copying and archiving.
 
+**Copying Files**
 
+```copyfile()``` copies the contents of the source to the destination and raises IOError if it does not have permission to write to the destination file.
 
+**Copying File Metadata**
+
+By default when a new file is created under Unix, it receives permissions based on the umask of the current user. To copy the permissions from one file to another, use ```copymode()```.
+
+**Working With Directory Trees**
+
+shutil includes three functions for working with directory trees. To copy a directory from one place to another, use ```copytree()```. It recurses through the source directory tree, copying files to the destination. The destination directory must not exist in advance.
+
+**Finding Files**
+
+The ```which()``` function scans a search path looking for a named file. The typical use case is to find an executable program on the shell’s search path defined in the environment variable PATH.
+
+**Archives**
+
+Python’s standard library includes many modules for managing archive files such as tarfile and zipfile. There are also several higher-level functions for creating and extracting archives in shutil. ```get_archive_formats()``` returns a sequence of names and descriptions for formats supported on the current system.
+
+**File System Space**
+
+It can be useful to examine the local file system to see how much space is available before performing a long running operation that may exhaust that space. ```disk_usage()``` returns a tuple with the total space, the amount currently being used, and the amount remaining free.
