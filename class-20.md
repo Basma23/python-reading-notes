@@ -143,6 +143,7 @@ def homepage(request):
     message = gettext('Welcome to our site!')
     return render(request, 'homepage.html', {'message': message})
 ```
+
 ```
 {% load i18n %}
 <html>
