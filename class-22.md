@@ -87,26 +87,6 @@ For forms that use a POST request to submit information to the server, the most 
 - ```reverse():``` This generates a URL from a URL configuration name and a set of arguments. It is the Python equivalent of the url tag that we've been using in our templates.
 - ```datetime:``` A Python library for manipulating dates and times. 
 
-***The template***
-
-```
-{% extends "base_generic.html" %}
-
-{% block content %}
-  <h1>Renew: {{ book_instance.book.title }}</h1>
-  <p>Borrower: {{ book_instance.borrower }}</p>
-  <p{% if book_instance.is_overdue %} class="text-danger"{% endif %}>Due date: {{ book_instance.due_back }}</p>
-    
-  <form action="" method="post">
-    {% csrf_token %}
-    <table>
-    {{ form.as_table }}
-    </table>
-    <input type="submit" value="Submit">
-  </form>
-{% endblock %}
-```
-
 ***Other ways of using form template variable*** 
 
 We can also render each field as a list item (using``` {{ form.as_ul }}``` ) or as a paragraph (using ```{{ form.as_p }}```).
