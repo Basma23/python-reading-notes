@@ -34,3 +34,4 @@ This table bellow showing the read sections in code 401, which contain a list of
 |  25  |[Read class-25](https://basma23.github.io/python-reading-notes/class-25)                                        |
 |  26  |[Read class-26](https://basma23.github.io/python-reading-notes/class-26)                                        |
 |  27  |[Read class-27](https://basma23.github.io/python-reading-notes/class-27)                                        |
+|  28  |[Read class-28](https://basma23.github.io/python-reading-notes/class-28)                                        |
