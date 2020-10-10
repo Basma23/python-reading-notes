@@ -44,3 +44,14 @@
 # [Will democracy survive big data and AI?](https://www.scientificamerican.com/article/will-democracy-survive-big-data-and-artificial-intelligence/)
 
 # [Google AI Principles](https://www.blog.google/technology/ai/ai-principles/)
+
+## Objectives for AI applications:
+
+1. Be socially beneficial. 
+2. Avoid creating or reinforcing unfair bias.
+3. Be built and tested for safety.
+4. Be accountable to people.
+5. Incorporate privacy design principles.
+6. Uphold high standards of scientific excellence.
+7. Be made available for uses that accord with these principles.  
+
